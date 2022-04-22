@@ -970,7 +970,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .skill-bars li .progress span {
 	position: absolute;
 	right: 0;
-	top: -3.6rem;
+	top: 1.4rem;
 	display: block;
 	font-family: "poppins-regular", sans-serif;
 	color: white;
@@ -983,11 +983,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .skill-bars li .progress span::after {
 	position: absolute;
 	left: 50%;
-	bottom: -5px;
+	bottom: 21px;
 	margin-left: -5px;
 	border-right: 5px solid transparent;
 	border-left: 5px solid transparent;
-	border-top: 5px solid #313131;
+	border-bottom: 5px solid #313131;
 	content: "";
 }
 
@@ -2481,6 +2481,12 @@ header .logo a {
 		-ms-transform: scale(1);
 		transform: scale(1);
 	}
+}
+
+.techs li{
+	padding: 0 0 0.5rem 0 !important;
+	font-family: 'poppins-medium';
+	margin-bottom: 0 !important;
 }
 
 

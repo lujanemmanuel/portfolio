@@ -1,971 +1,944 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio | Emmanuel Luján</title>
-    <!-- CSS
-   ================================================== -->
-    <link rel="stylesheet" href="../css/base.css" />
-    <link rel="stylesheet" href="../css/main.css" />
-    <link rel="stylesheet" href="../css/vendor.css" />
 
-    <!-- script
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Emmanuel Luján</title>
+  <!-- CSS
    ================================================== -->
-    <script src="../js/modernizr.js"></script>
-    <script src="../js/pace.min.js"></script>
+  <link rel="stylesheet" href="../css/base.css" />
+  <link rel="stylesheet" href="../css/main.css" />
+  <link rel="stylesheet" href="../css/vendor.css" />
 
-    <!-- favicons
+  <!-- script
+   ================================================== -->
+  <script src="../js/modernizr.js"></script>
+  <script src="../js/pace.min.js"></script>
+
+  <!-- favicons
 	================================================== -->
-    <link rel="icon" type="image/png" href="../favicon.png" />
-  </head>
-  <body id="top">
-    <!-- header 
+  <link rel="icon" type="image/png" href="../favicon.png" />
+</head>
+
+<body id="top">
+  <!-- header 
    ================================================== -->
-    <header>
+  <header>
+    <div class="row">
+      <div class="top-bar">
+        <a class="menu-toggle" href="#"><span>Menu</span></a>
+
+        <div class="logo">
+          <a href="index.html"></a>
+        </div>
+
+        <nav id="main-nav-wrap">
+          <ul class="main-navigation">
+            <li class="current">
+              <a class="smoothscroll" href="#intro" title="">Home</a>
+            </li>
+            <li>
+              <a class="smoothscroll" href="#about" title="">About</a>
+            </li>
+            <li>
+              <a class="smoothscroll" href="#resume" title="">Resume</a>
+            </li>
+            <li>
+              <a class="smoothscroll" href="#portfolio" title="">Portfolio</a>
+            </li>
+            <li>
+              <a class="smoothscroll" href="#services" title="">Services</a>
+            </li>
+            <li>
+              <a class="smoothscroll" href="#contact" title="">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- /top-bar -->
+    </div>
+    <!-- /row -->
+  </header>
+  <!-- /header -->
+
+  <!-- intro section
+================================================== -->
+  <section id="intro">
+    <div class="intro-overlay"></div>
+
+    <div class="intro-content">
       <div class="row">
-        <div class="top-bar">
-          <a class="menu-toggle" href="#"><span>Menu</span></a>
-
-          <div class="logo">
-            <a href="index.html"></a>
-          </div>
-
-          <nav id="main-nav-wrap">
-            <ul class="main-navigation">
-              <li class="current">
-                <a class="smoothscroll" href="#intro" title="">Home</a>
-              </li>
-              <li>
-                <a class="smoothscroll" href="#about" title="">About</a>
-              </li>
-              <li>
-                <a class="smoothscroll" href="#resume" title="">Resume</a>
-              </li>
-              <li>
-                <a class="smoothscroll" href="#portfolio" title="">Portfolio</a>
-              </li>
-              <li>
-                <a class="smoothscroll" href="#services" title="">Services</a>
-              </li>
-              <li>
-                <a class="smoothscroll" href="#contact" title="">Contact</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-        <!-- /top-bar -->
-      </div>
-      <!-- /row -->
-    </header>
-    <!-- /header -->
-
-    <!-- intro section
-================================================== -->
-    <section id="intro">
-      <div class="intro-overlay"></div>
-
-      <div class="intro-content">
-        <div class="row">
-          <div class="col-twelve">
-            <h5>Hello, world.</h5>
-            <h1>I'm Emmanuel Luján.</h1>
-
-            <p class="intro-position">
-              <span>Computer Systems Engineer</span>
-              <span>Software Engineer</span>
-            </p>
-
-            <a class="button stroke smoothscroll" href="#about" title=""
-              >More about me</a
-            >
-          </div>
-        </div>
-      </div>
-      <!-- /intro-content -->
-
-      <ul class="intro-social">
-        <li>
-          <a href="https://www.facebook.com/emmanuel.lujanrios" target="_blank"
-            ><i class="fa fa-facebook"></i
-          ></a>
-        </li>
-        <li>
-          <a href="https://twitter.com/EmmanuelJLR" target="_blank"
-            ><i class="fa fa-twitter"></i
-          ></a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/emmlr99/?hl=es-la" target="_blank"
-            ><i class="fa fa-instagram"></i
-          ></a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/emmanuel-lujan/" target="_blank"
-            ><i class="fa fa-linkedin"></i
-          ></a>
-        </li>
-        <li>
-          <a href="https://github.com/lujanemmanuel" target="_blank"
-            ><i class="fa fa-github"></i
-          ></a>
-        </li>
-      </ul>
-      <!-- /intro-social -->
-    </section>
-    <!-- /intro -->
-
-    <!-- about section
-================================================== -->
-    <section id="about">
-      <div class="row section-intro">
         <div class="col-twelve">
-          <h5>About</h5>
-          <h1>Let me introduce myself.</h1>
+          <h5>Hello, world.</h5>
+          <h1>I'm Emmanuel Luján.</h1>
 
-          <div class="intro-info">
-            <img src="../images/profile-pic.jpg" alt="Profile Picture" />
+          <p class="intro-position">
+            <span>Computer Systems Engineer</span>
+            <span>Software Engineer</span>
+          </p>
 
-            <p class="lead">
-              I am a very active young man, passionate about what he does and
-              with a broad motivation to continue learning to improve every day.
-              Self-taught, and with constant improvement plans.
-            </p>
-          </div>
+          <a class="button stroke smoothscroll" href="#about" title="">More about me</a>
         </div>
       </div>
-      <!-- /section-intro -->
+    </div>
+    <!-- /intro-content -->
 
-      <div class="row about-content">
-        <div class="col-six tab-full">
-          <h3>Profile</h3>
-          <p>This is me, this is what I do and I like to do.</p>
+    <ul class="intro-social">
+      <li>
+        <a href="https://www.facebook.com/emmanuel.lujanrios" target="_blank"><i class="fa fa-facebook"></i></a>
+      </li>
+      <li>
+        <a href="https://twitter.com/EmmanuelJLR" target="_blank"><i class="fa fa-twitter"></i></a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/emmlr99/?hl=es-la" target="_blank"><i class="fa fa-instagram"></i></a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/emmanuel-lujan/" target="_blank"><i class="fa fa-linkedin"></i></a>
+      </li>
+      <li>
+        <a href="https://github.com/lujanemmanuel" target="_blank"><i class="fa fa-github"></i></a>
+      </li>
+    </ul>
+    <!-- /intro-social -->
+  </section>
+  <!-- /intro -->
 
-          <ul class="info-list">
-            <li>
-              <strong>Fullname:</strong>
-              <span>Emmanuel de Jesús Luján Ríos</span>
-            </li>
-            <li>
-              <strong>Birth date:</strong>
-              <span>July 30, 1999</span>
-            </li>
-            <li>
-              <strong>Job:</strong>
-              <span>Freelancer, Frontend Developer</span>
-            </li>
-            <!-- <li>
+  <!-- about section
+================================================== -->
+  <section id="about">
+    <div class="row section-intro">
+      <div class="col-twelve">
+        <h5>About</h5>
+        <h1>Let me introduce myself.</h1>
+
+        <div class="intro-info">
+          <img src="../images/profile-pic.jpg" alt="Profile Picture" />
+
+          <p class="lead">
+            I am a very active young man, passionate about what he does and
+            with a broad motivation to continue learning to improve every day.
+            Self-taught, and with constant improvement plans.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- /section-intro -->
+
+    <div class="row about-content">
+      <div class="col-six tab-full">
+        <h3>Profile</h3>
+        <p>This is me, this is what I do and I like to do.</p>
+
+        <ul class="info-list">
+          <li>
+            <strong>Fullname:</strong>
+            <span>Emmanuel de Jesús Luján Ríos</span>
+          </li>
+          <li>
+            <strong>Birth date:</strong>
+            <span>July 30, 1999</span>
+          </li>
+          <li>
+            <strong>Job:</strong>
+            <span>Freelancer</span>
+            <span>Developer Consultant Jr. at Bigo by Keyrus</span>
+          </li>
+          <!-- <li>
 					<strong>Website:</strong>
 					<span>www.kardswebsite.com</span>
 				</li> -->
-            <li>
-              <strong>Email:</strong>
-              <span>lujanriosjesus@gmail.com</span>
-            </li>
-          </ul>
-          <!-- /info-list -->
-        </div>
-
-        <div class="col-six tab-full">
-          <h3>Skills</h3>
-          <p>
-            Just graduated, but with varied basic knowledge, which I will forge
-            every day more, while I am gaining experience in the field
-          </p>
-
-          <ul class="skill-bars">
-            <li>
-              <div class="progress percent50"><span>50%</span></div>
-              <strong>Python</strong>
-            </li>
-            <li>
-              <div class="progress percent30"><span>30%</span></div>
-              <strong>Java</strong>
-            </li>
-            <li>
-              <div class="progress percent50"><span>50%</span></div>
-              <strong>HTML5</strong>
-            </li>
-            <li>
-              <div class="progress percent35"><span>35%</span></div>
-              <strong>CSS3</strong>
-            </li>
-            <li>
-              <div class="progress percent20"><span>20%</span></div>
-              <strong>JQuery</strong>
-            </li>
-            <li>
-              <div class="progress percent40"><span>40%</span></div>
-              <strong>JavaScript</strong>
-            </li>
-            <li>
-              <div class="progress percent40"><span>40%</span></div>
-              <strong>PHP</strong>
-            </li>
-            <li>
-              <div class="progress percent20"><span>20%</span></div>
-              <strong>NodeJS</strong>
-            </li>
-            <li>
-              <div class="progress percent25"><span>25%</span></div>
-              <strong>SQL</strong>
-            </li>
-            <li>
-              <div class="progress percent10"><span>10%</span></div>
-              <strong>MongoDB</strong>
-            </li>
-          </ul>
-          <!-- /skill-bars -->
-        </div>
+          <li>
+            <strong>Email:</strong>
+            <span>lujanriosjesus@gmail.com</span>
+          </li>
+          <li>
+            <strong>Technologies:</strong>
+            <ul class="techs">
+              <li>SAP</li>
+              <li>Hybris</li>
+              <li>Spartacus</li>
+              <li>SalesForce</li>
+              <li>Apex</li>
+              <li>LWC</li>
+              <li>Angular</li>
+              <li>React</li>
+            </ul>
+          </li>
+        </ul>
+        <!-- /info-list -->
       </div>
 
-      <div class="row button-section">
-        <div class="col-twelve">
-          <a href="#contact" title="Hire Me" class="button stroke smoothscroll"
-            >Contact me</a
-          >
-          <a
-            href="https://drive.google.com/file/d/1efN4GM8BzSDPVspHbVVP2mcfbARrURW7/view?usp=sharing"
-            target="_blank"
-            title="Descargar CV"
-            class="button button-primary"
-            >Download CV</a
-          >
-        </div>
-      </div>
-    </section>
-    <!-- /process-->
+      <div class="col-six tab-full">
+        <h3>Skills</h3>
+        <p>
+          Just graduated, but with varied basic knowledge, which I will forge
+          every day more, while I am gaining experience in the field
+        </p>
 
-    <!-- resume Section
+        <ul class="skill-bars">
+          <li>
+            <div class="progress percent40"><span>40%</span></div>
+            <strong>Python</strong>
+          </li>
+          <li>
+            <div class="progress percent20"><span>20%</span></div>
+            <strong>Java</strong>
+          </li>
+          <li>
+            <div class="progress percent50"><span>50%</span></div>
+            <strong>HTML5</strong>
+          </li>
+          <li>
+            <div class="progress percent40"><span>40%</span></div>
+            <strong>CSS3</strong>
+          </li>
+          <li>
+            <div class="progress percent30"><span>30%</span></div>
+            <strong>JQuery</strong>
+          </li>
+          <li>
+            <div class="progress percent40"><span>40%</span></div>
+            <strong>JavaScript</strong>
+          </li>
+          <li>
+            <div class="progress percent30"><span>30%</span></div>
+            <strong>PHP</strong>
+          </li>
+          <li>
+            <div class="progress percent30"><span>30%</span></div>
+            <strong>NodeJS</strong>
+          </li>
+          <li>
+            <div class="progress percent25"><span>25%</span></div>
+            <strong>SQL</strong>
+          </li>
+          <li>
+            <div class="progress percent10"><span>10%</span></div>
+            <strong>MongoDB</strong>
+          </li>
+        </ul>
+        <!-- /skill-bars -->
+      </div>
+    </div>
+
+    <div class="row button-section">
+      <div class="col-twelve">
+        <a href="#contact" title="Hire Me" class="button stroke smoothscroll">Contact me</a>
+        <a href="https://drive.google.com/file/d/1efN4GM8BzSDPVspHbVVP2mcfbARrURW7/view?usp=sharing" target="_blank"
+          title="Descargar CV" class="button button-primary">Download CV</a>
+      </div>
+    </div>
+  </section>
+  <!-- /process-->
+
+  <!-- resume Section
 ================================================== -->
-    <section id="resume" class="grey-section">
-      <div class="row section-intro">
-        <div class="col-twelve">
-          <h5>Resume</h5>
-          <h1>More of my credentials.</h1>
+  <section id="resume" class="grey-section">
+    <div class="row section-intro">
+      <div class="col-twelve">
+        <h5>Resume</h5>
+        <h1>More of my credentials.</h1>
 
-          <p class="lead">
-            I am about to start my professional working life, for which, I have
-            achieved the following.
-          </p>
-        </div>
+        <p class="lead">
+          I am about to start my professional working life, for which, I have
+          achieved the following.
+        </p>
       </div>
-      <!-- /section-intro-->
+    </div>
+    <!-- /section-intro-->
 
-      <div class="row resume-timeline">
-        <div class="col-twelve resume-header">
-          <h2>Working experience</h2>
-        </div>
-        <!-- /resume-header -->
-
-        <div class="col-twelve">
-          <div class="timeline-wrap">
-            <div class="timeline-block">
-              <div class="timeline-ico">
-                <i class="fa fa-briefcase"></i>
-              </div>
-
-              <div class="timeline-header">
-                <h3>Project developer</h3>
-                <p>Febrary 2021 - today</p>
-              </div>
-
-              <div class="timeline-content">
-                <h4>Fábrica de Software del ITSZaS</h4>
-                <p>
-                  A WEB project is being developed for a private company, in the
-                  inventory control, production and sales manager category. For
-                  which, technologies such as PHP, JavaScript, HTML5, CSS3,
-                  Ajax, JQuery are used, as well as libraries such as BootStrap,
-                  DataTables, among others.
-                </p>
-              </div>
-            </div>
-            <!-- /timeline-block -->
-
-            <div class="timeline-block">
-              <div class="timeline-ico">
-                <i class="fa fa-briefcase"></i>
-              </div>
-
-              <div class="timeline-header">
-                <h3>Project developer</h3>
-                <p>February 2020 - February 2021</p>
-              </div>
-
-              <div class="timeline-content">
-                <h4>Fábrica de Software del ITSZaS</h4>
-                <p>
-                  A project manager from the same software factory was developed
-                  for one year as part of the ISO29110 standard. For which,
-                  technologies such as PHP, JavaScript, HTML5, CSS3, and the
-                  BootStrap library were used. Among other things, the system
-                  allows requests for software projects, to be managed by the
-                  Administrator entity, and the collaborative work of the
-                  Developer and Advisor entities.
-                </p>
-              </div>
-            </div>
-            <!-- /timeline-block -->
-          </div>
-          <!-- /timeline-wrap -->
-        </div>
-        <!-- /col-twelve -->
+    <div class="row resume-timeline">
+      <div class="col-twelve resume-header">
+        <h2>Working experience</h2>
       </div>
-      <!-- /resume-timeline -->
+      <!-- /resume-header -->
 
-      <div class="row resume-timeline">
-        <div class="col-twelve resume-header">
-          <h2>Education</h2>
-        </div>
-        <!-- /resume-header -->
-
-        <div class="col-twelve">
-          <div class="timeline-wrap">
-            <div class="timeline-block">
-              <div class="timeline-ico">
-                <i class="fa fa-graduation-cap"></i>
-              </div>
-
-              <div class="timeline-header">
-                <h3>Computer Systems Engineer</h3>
-                <p>July 2017 - Today</p>
-              </div>
-
-              <div class="timeline-content">
-                <h4>Instituto Tecnológico Superior Zacatecas Sur</h4>
-                <p>
-                  With a specialty in Software Engineering. The institution has
-                  a small software development company, which introduces us to
-                  the workplace with real-life clients.
-                </p>
-              </div>
+      <div class="col-twelve">
+        <div class="timeline-wrap">
+          <div class="timeline-block">
+            <div class="timeline-ico">
+              <i class="fa fa-briefcase"></i>
             </div>
-            <!-- /timeline-block -->
-
-            <div class="timeline-block">
-              <div class="timeline-ico">
-                <i class="fa fa-graduation-cap"></i>
-              </div>
-
-              <div class="timeline-header">
-                <h3>Physical-Mathematical Baccalaureate</h3>
-                <p>July 2014 - June 2017</p>
-              </div>
-
-              <div class="timeline-content">
-                <h4>
-                  Universidad Autónoma De Zacatecas, Unidad Académica
-                  Preparatoria VII
-                </h4>
-                <p>
-                  With four semesters of general education, and two semesters
-                  dedicated to the Physical-mathematical specialty.
-                </p>
-              </div>
+            <div class="timeline-header">
+              <h3>Developer Consultant JR.</h3>
+              <p>November 2021 - Today</p>
             </div>
-            <!-- /timeline-block -->
-          </div>
-          <!-- /timeline-wrap -->
-        </div>
-        <!-- /col-twelve -->
-      </div>
-      <!-- /resume-timeline -->
-    </section>
-    <!-- /features -->
 
-    <!-- Portfolio Section
-================================================== -->
-    <section id="portfolio">
-      <div class="row section-intro">
-        <div class="col-twelve">
-          <h5>Portaflio</h5>
-          <h1>Check Out Some of My Works.</h1>
-
-          <!-- <p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p> -->
-        </div>
-      </div>
-      <!-- /section-intro-->
-
-      <div class="row portfolio-content">
-        <div class="col-twelve">
-          <!-- portfolio-wrapper -->
-          <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
-            <div class="bgrid folio-item">
-              <div class="item-wrap">
-                <img src="../images/portfolio/iso2.png" alt="Project manager" />
-                <a href="#modal-01" class="overlay">
-                  <div class="folio-item-table">
-                    <div class="folio-item-cell">
-                      <h3 class="folio-title">Project manager</h3>
-                      <span class="folio-types"> WEB development </span>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <!-- /folio-item -->
-
-            <div class="bgrid folio-item">
-              <div class="item-wrap">
-                <img
-                  src="../images/portfolio/emporio4.png"
-                  alt="Emporio Charro"
-                />
-                <a href="#modal-02" class="overlay">
-                  <div class="folio-item-table">
-                    <div class="folio-item-cell">
-                      <h3 class="folio-title">Emporio Charro</h3>
-                      <span class="folio-types"> WEB development </span>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <!-- /folio-item -->
-            <div class="bgrid folio-item">
-              <div class="item-wrap">
-                <img
-                  src="../images/portfolio/generic-pof.png"
-                  alt="Generic POF"
-                />
-                <a href="#modal-03" class="overlay">
-                  <div class="folio-item-table">
-                    <div class="folio-item-cell">
-                      <h3 class="folio-title">Generic POF</h3>
-                      <span class="folio-types"> WEB development</span>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <!-- /folio-item -->
-            <div class="bgrid folio-item">
-              <div class="item-wrap">
-                <img src="../images/portfolio/loteria.png" alt="¡Lotería!" />
-                <a href="#modal-04" class="overlay">
-                  <div class="folio-item-table">
-                    <div class="folio-item-cell">
-                      <h3 class="folio-title">¡Lotería!</h3>
-                      <span class="folio-types"> Development </span>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <!-- /folio-item -->
-            <div class="bgrid folio-item">
-              <div class="item-wrap">
-                <img
-                  src="../images/portfolio/fepaola.png"
-                  alt="Fotoestudio Paola"
-                />
-                <a href="#modal-05" class="overlay">
-                  <div class="folio-item-table">
-                    <div class="folio-item-cell">
-                      <h3 class="folio-title">Fotoestudio Paola</h3>
-                      <span class="folio-types"> WEB development </span>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <!-- /folio-item -->
-            <div class="bgrid folio-item">
-              <div class="item-wrap">
-                <img
-                  src="../images/portfolio/video-collection.png"
-                  alt="Video collection"
-                />
-                <a href="#modal-06" class="overlay">
-                  <div class="folio-item-table">
-                    <div class="folio-item-cell">
-                      <h3 class="folio-title">Video collection</h3>
-                      <span class="folio-types"> WEB development </span>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <!-- /folio-item -->
-
-            <!-- modal popups - begin
-			 ============================================================= -->
-            <div id="modal-01" class="popup-modal slider mfp-hide">
-              <div class="media">
-                <img src="../images/portfolio/modals/iso2.png" alt="" />
-              </div>
-
-              <div class="description-box">
-                <h4>Project manager</h4>
-                <p>
-                  WEB system developed for the institution's Software Factory,
-                  in order to keep track of the projects that are developed
-                  within it. So that the entities involved carry out their
-                  actions corresponding within the system, and the delivery and
-                  production times.
-                </p>
-
-                <div class="categories">WEB development</div>
-              </div>
-
-              <div class="link-box">
-                <a href="#" class="popup-modal-dismiss">Close</a>
-              </div>
-            </div>
-            <!-- /modal-01 -->
-
-            <div id="modal-02" class="popup-modal slider mfp-hide">
-              <div class="media">
-                <img src="../images/portfolio/modals/emporio4.png" alt="" />
-              </div>
-
-              <div class="description-box">
-                <h4>Emporio Charro</h4>
-                <p>
-                  WEB system requested by a private company, developed in the
-                  PHP, HTML5, JavaScript and CSS3 environment, in order to keep
-                  an optimized control in matters of raw material and production
-                  inventories.
-                </p>
-                <div class="categories">WEB development</div>
-              </div>
-
-              <div class="link-box">
-                <a href="#" class="popup-modal-dismiss">Close</a>
-              </div>
-            </div>
-            <!-- /modal-02 -->
-
-            <div id="modal-03" class="popup-modal slider mfp-hide">
-              <div class="media">
-                <img src="../images/portfolio/modals/generic-pof.png" alt="" />
-              </div>
-
-              <div class="description-box">
-                <h4>Generic POF</h4>
-                <p>
-                  Generic point of sale developed freely, to test technologies
-                  such as NodeJS, Materialize, express, among others. Done in my
-                  spare time.
-                </p>
-
-                <div class="categories">WEB development</div>
-              </div>
-
-              <div class="link-box">
-                <a href="#" class="popup-modal-dismiss">Close</a>
-              </div>
-            </div>
-            <!-- /modal-03 -->
-
-            <div id="modal-04" class="popup-modal slider mfp-hide">
-              <div class="media">
-                <img src="../images/portfolio/modals/loteria.png" alt="" />
-              </div>
-
-              <div class="description-box">
-                <h4>¡Lotería!</h4>
-                <p>
-                  The traditional Mexican game brought to the digital world.
-                  Made entirely in Java. It features: choice of cards, randomly
-                  chosen traditional background music, random deck review, and
-                  card narration with up to three types of voice. It is an
-                  user-machine competition.
-                </p>
-
-                <div class="categories">Development</div>
-              </div>
-
-              <div class="link-box">
-                <a href="#" class="popup-modal-dismiss">Close</a>
-              </div>
-            </div>
-            <!-- /modal-04 -->
-
-            <div id="modal-05" class="popup-modal slider mfp-hide">
-              <div class="media">
-                <img src="../images/portfolio/modals/fepaola.png" alt="" />
-              </div>
-
-              <div class="description-box">
-                <h4>Fotoestudio Paola</h4>
-                <p>
-                  WEB system developed for fictitious clients as part of
-                  academic training. Made in NodeJS with technologies such as
-                  EJS, Express, Morgan, MySQL, among others. Control of
-                  employees, users, inventories, sales, photo sessions, and
-                  more.
-                </p>
-
-                <div class="categories">WEB development</div>
-              </div>
-
-              <div class="link-box">
-                <a href="#" class="popup-modal-dismiss">Close</a>
-              </div>
-            </div>
-            <!-- /modal-05 -->
-
-            <div id="modal-06" class="popup-modal slider mfp-hide">
-              <div class="media">
-                <img
-                  src="../images/portfolio/modals/video-collection.png"
-                  alt=""
-                />
-              </div>
-
-              <div class="description-box">
-                <h4>Video collection</h4>
-                <p>
-                  Collection of youtube videos made to test the MERN Stack
-                  (MongoDB, Express, React and NodeJS). Done in my spare time.
-                </p>
-
-                <div class="categories">WEB development</div>
-              </div>
-
-              <div class="link-box">
-                <a href="#" class="popup-modal-dismiss">Close</a>
-              </div>
-            </div>
-            <!-- /modal-06 -->
-
-            <!-- modal popups - end
-			 ============================================================= -->
-          </div>
-          <!-- /portfolio-wrapper -->
-        </div>
-        <!-- /twelve -->
-      </div>
-      <!-- /portfolio-content -->
-    </section>
-    <!-- /portfolio -->
-
-    <!-- services Section
-================================================== -->
-    <section id="services">
-      <div class="overlay"></div>
-
-      <div class="row section-intro">
-        <div class="col-twelve">
-          <h5>Services</h5>
-          <h1>What Can I Do For You?</h1>
-
-          <p class="lead">
-            These are some of the tasks that I can do, I assure you that I love
-            doing it, it is my passion!
-          </p>
-        </div>
-      </div>
-      <!-- /section-intro -->
-
-      <div class="row services-content">
-        <div id="owl-slider" class="owl-carousel services-list">
-          <div class="service">
-            <span class="icon"><i class="icon-earth"></i></span>
-
-            <div class="service-content">
-              <h3>WEB design</h3>
-
-              <p class="desc">
-                WEB design is key if you want your site to be presentable and to
-                please those who use it. There are so many factors that go into
-                paper, that careful decision-making work is required.
+            <div class="timeline-content">
+              <h4>Bigo by Keyrus</h4>
+              <p>
+                Currently I'm working in the same company where I realized
+                my professional stay.
               </p>
             </div>
           </div>
-          <!-- /service -->
+          <div class="timeline-block">
+            <div class="timeline-ico">
+              <i class="fa fa-briefcase"></i>
+            </div>
+            <div class="timeline-header">
+              <h3>Developer Intern</h3>
+              <p>June 2021 - October 2021</p>
+            </div>
 
-          <div class="service">
-            <span class="icon"><i class="icon-window"></i></span>
-
-            <div class="service-content">
-              <h3>WEB development</h3>
-
-              <p class="desc">
-                Design is important, but if there is no one to develop it, it is
-                useless, it is of the utmost importance to know the cutting-edge
-                technologies to keep your site updated, safe, and optimized.
+            <div class="timeline-content">
+              <h4>Bigo by Keyrus</h4>
+              <p>
+                As part of my professional career' culmination, I realized professional practices 
+                in the company Bigo by Keyrus, dedicated to solutions
+                of eCommerce for B2C and B2B companies with specialized technologies.
               </p>
             </div>
           </div>
-          <!-- /service -->
+          <div class="timeline-block">
+            <div class="timeline-ico">
+              <i class="fa fa-briefcase"></i>
+            </div>
 
-          <div class="service">
-            <span class="icon"><i class="icon-yes"></i></span>
+            <div class="timeline-header">
+              <h3>Project developer</h3>
+              <p>Febrary 2021 - June 2021</p>
+            </div>
 
-            <div class="service-content">
-              <h3>Scripting</h3>
-
-              <p class="desc">
-                Code development, mainly in the languages: Python, PHP,
-                JavaScript, Java (basic), soon more...
+            <div class="timeline-content">
+              <h4>Fábrica de Software del ITSZaS</h4>
+              <p>
+                A WEB project is being developed for a private company, in the
+                inventory control, production and sales manager category. For
+                which, technologies such as PHP, JavaScript, HTML5, CSS3,
+                Ajax, JQuery are used, as well as libraries such as BootStrap,
+                DataTables, among others.
               </p>
             </div>
           </div>
-          <!-- /service -->
-        </div>
-        <!-- /services-list -->
-      </div>
-      <!-- /services-content -->
-    </section>
-    <!-- /services -->
+          <!-- /timeline-block -->
 
-    <!-- stats Section
-================================================== -->
-    <section id="stats" class="count-up">
-      <div class="row">
-        <div class="col-twelve">
-          <div
-            class="block-1-6 block-s-1-3 block-tab-1-2 block-mob-full stats-list"
-          >
-            <div class="bgrid stat">
-              <div class="icon-part">
-                <i class="icon-pencil-ruler"></i>
-              </div>
-
-              <h3 class="stat-count">3</h3>
-
-              <h5 class="stat-title">PROJECTS COMPLETED</h5>
+          <div class="timeline-block">
+            <div class="timeline-ico">
+              <i class="fa fa-briefcase"></i>
             </div>
-            <!-- /stat -->
 
-            <div class="bgrid stat">
-              <div class="icon-part">
-                <i class="icon-users"></i>
-              </div>
-
-              <h3 class="stat-count">2</h3>
-
-              <h5 class="stat-title">HAPPY CLIENTS</h5>
+            <div class="timeline-header">
+              <h3>Project developer</h3>
+              <p>February 2020 - February 2021</p>
             </div>
-            <!-- /stat -->
 
-            <div class="bgrid stat">
-              <div class="icon-part">
-                <i class="icon-badge"></i>
-              </div>
-
-              <h3 class="stat-count">2</h3>
-
-              <h5 class="stat-title">AWARDS RECEIVED</h5>
+            <div class="timeline-content">
+              <h4>Fábrica de Software del ITSZaS</h4>
+              <p>
+                A project manager from the same software factory was developed
+                for one year as part of the ISO29110 standard. For which,
+                technologies such as PHP, JavaScript, HTML5, CSS3, and the
+                BootStrap library were used. Among other things, the system
+                allows requests for software projects, to be managed by the
+                Administrator entity, and the collaborative work of the
+                Developer and Advisor entities.
+              </p>
             </div>
-            <!-- /stat -->
-
-            <div class="bgrid stat">
-              <div class="icon-part">
-                <i class="icon-light-bulb"></i>
-              </div>
-
-              <h3 class="stat-count">1000</h3>
-
-              <h5 class="stat-title">CRAZY IDEAS</h5>
-            </div>
-            <!-- /stat -->
-
-            <div class="bgrid stat">
-              <div class="icon-part">
-                <i class="icon-cup"></i>
-              </div>
-
-              <h3 class="stat-count">3000</h3>
-
-              <h5 class="stat-title">COFFEE CUPS</h5>
-            </div>
-            <!-- /stat -->
-
-            <div class="bgrid stat">
-              <div class="icon-part">
-                <i class="icon-clock"></i>
-              </div>
-
-              <h3 class="stat-count">7200</h3>
-
-              <h5 class="stat-title">HOURS</h5>
-            </div>
-            <!-- /stat -->
           </div>
-          <!-- /stats-list -->
+          <!-- /timeline-block -->
         </div>
-        <!-- /twelve -->
+        <!-- /timeline-wrap -->
       </div>
-      <!-- /row -->
-    </section>
-    <!-- /stats -->
+      <!-- /col-twelve -->
+    </div>
+    <!-- /resume-timeline -->
 
-    <!-- contact
+    <div class="row resume-timeline">
+      <div class="col-twelve resume-header">
+        <h2>Education</h2>
+      </div>
+      <!-- /resume-header -->
+
+      <div class="col-twelve">
+        <div class="timeline-wrap">
+          <div class="timeline-block">
+            <div class="timeline-ico">
+              <i class="fa fa-graduation-cap"></i>
+            </div>
+
+            <div class="timeline-header">
+              <h3>Computer Systems Engineer</h3>
+              <p>July 2017 - October 2021</p>
+            </div>
+
+            <div class="timeline-content">
+              <h4>Instituto Tecnológico Superior Zacatecas Sur</h4>
+              <p>
+                With a specialty in Software Engineering. The institution has
+                a small software development company, which introduces us to
+                the workplace with real-life clients.
+              </p>
+            </div>
+          </div>
+          <!-- /timeline-block -->
+
+          <div class="timeline-block">
+            <div class="timeline-ico">
+              <i class="fa fa-graduation-cap"></i>
+            </div>
+
+            <div class="timeline-header">
+              <h3>Physical-Mathematical Baccalaureate</h3>
+              <p>July 2014 - June 2017</p>
+            </div>
+
+            <div class="timeline-content">
+              <h4>
+                Universidad Autónoma De Zacatecas, Unidad Académica
+                Preparatoria VII
+              </h4>
+              <p>
+                With four semesters of general education, and two semesters
+                dedicated to the Physical-mathematical specialty.
+              </p>
+            </div>
+          </div>
+          <!-- /timeline-block -->
+        </div>
+        <!-- /timeline-wrap -->
+      </div>
+      <!-- /col-twelve -->
+    </div>
+    <!-- /resume-timeline -->
+  </section>
+  <!-- /features -->
+
+  <!-- Portfolio Section
 ================================================== -->
-    <section id="contact">
-      <div class="row section-intro">
-        <div class="col-twelve">
-          <h5>Contact</h5>
-          <h1>I'd Love To Hear From You.</h1>
+  <section id="portfolio">
+    <div class="row section-intro">
+      <div class="col-twelve">
+        <h5>Portaflio</h5>
+        <h1>Check Out Some of My Works.</h1>
 
-          <p class="lead">
-            If you need me, do not hesitate to contact me, I will leave you my
-            contact information.
-          </p>
-        </div>
+        <!-- <p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p> -->
       </div>
-      <!-- /section-intro -->
+    </div>
+    <!-- /section-intro-->
 
-      <div class="row contact-form">
-        <div class="col-twelve">
-          <!-- form -->
-          <form name="contactForm" id="contactForm" method="post" action="">
-            <fieldset>
-              <div class="form-field">
-                <input
-                  name="contactName"
-                  type="text"
-                  id="contactName"
-                  placeholder="Name"
-                  value=""
-                  minlength="2"
-                  required=""
-                />
-              </div>
-              <div class="form-field">
-                <input
-                  name="contactEmail"
-                  type="email"
-                  id="contactEmail"
-                  placeholder="Email"
-                  value=""
-                  required=""
-                />
-              </div>
-              <div class="form-field">
-                <input
-                  name="contactSubject"
-                  type="text"
-                  id="contactSubject"
-                  placeholder="Subject"
-                  value=""
-                />
-              </div>
-              <div class="form-field">
-                <textarea
-                  name="contactMessage"
-                  id="contactMessage"
-                  placeholder="message"
-                  rows="10"
-                  cols="50"
-                  required=""
-                ></textarea>
-              </div>
-              <div class="form-field">
-                <button class="submitform">Submit</button>
-                <div id="submit-loader">
-                  <div class="text-loader">Sending...</div>
-                  <div class="s-loader">
-                    <div class="bounce1"></div>
-                    <div class="bounce2"></div>
-                    <div class="bounce3"></div>
+    <div class="row portfolio-content">
+      <div class="col-twelve">
+        <!-- portfolio-wrapper -->
+        <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+          <div class="bgrid folio-item">
+            <div class="item-wrap">
+              <img src="../images/portfolio/iso2.png" alt="Project manager" />
+              <a href="#modal-01" class="overlay">
+                <div class="folio-item-table">
+                  <div class="folio-item-cell">
+                    <h3 class="folio-title">Project manager</h3>
+                    <span class="folio-types"> WEB development </span>
                   </div>
                 </div>
+              </a>
+            </div>
+          </div>
+          <!-- /folio-item -->
+
+          <div class="bgrid folio-item">
+            <div class="item-wrap">
+              <img src="../images/portfolio/emporio4.png" alt="Emporio Charro" />
+              <a href="#modal-02" class="overlay">
+                <div class="folio-item-table">
+                  <div class="folio-item-cell">
+                    <h3 class="folio-title">Emporio Charro</h3>
+                    <span class="folio-types"> WEB development </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- /folio-item -->
+          <div class="bgrid folio-item">
+            <div class="item-wrap">
+              <img src="../images/portfolio/generic-pof.png" alt="Generic POF" />
+              <a href="#modal-03" class="overlay">
+                <div class="folio-item-table">
+                  <div class="folio-item-cell">
+                    <h3 class="folio-title">Generic POF</h3>
+                    <span class="folio-types"> WEB development</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- /folio-item -->
+          <div class="bgrid folio-item">
+            <div class="item-wrap">
+              <img src="../images/portfolio/loteria.png" alt="¡Lotería!" />
+              <a href="#modal-04" class="overlay">
+                <div class="folio-item-table">
+                  <div class="folio-item-cell">
+                    <h3 class="folio-title">¡Lotería!</h3>
+                    <span class="folio-types"> Development </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- /folio-item -->
+          <div class="bgrid folio-item">
+            <div class="item-wrap">
+              <img src="../images/portfolio/fepaola.png" alt="Fotoestudio Paola" />
+              <a href="#modal-05" class="overlay">
+                <div class="folio-item-table">
+                  <div class="folio-item-cell">
+                    <h3 class="folio-title">Fotoestudio Paola</h3>
+                    <span class="folio-types"> WEB development </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- /folio-item -->
+          <div class="bgrid folio-item">
+            <div class="item-wrap">
+              <img src="../images/portfolio/video-collection.png" alt="Video collection" />
+              <a href="#modal-06" class="overlay">
+                <div class="folio-item-table">
+                  <div class="folio-item-cell">
+                    <h3 class="folio-title">Video collection</h3>
+                    <span class="folio-types"> WEB development </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- /folio-item -->
+
+          <!-- modal popups - begin
+			 ============================================================= -->
+          <div id="modal-01" class="popup-modal slider mfp-hide">
+            <div class="media">
+              <img src="../images/portfolio/modals/iso2.png" alt="" />
+            </div>
+
+            <div class="description-box">
+              <h4>Project manager</h4>
+              <p>
+                WEB system developed for the institution's Software Factory,
+                in order to keep track of the projects that are developed
+                within it. So that the entities involved carry out their
+                actions corresponding within the system, and the delivery and
+                production times.
+              </p>
+
+              <div class="categories">WEB development</div>
+            </div>
+
+            <div class="link-box">
+              <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+          </div>
+          <!-- /modal-01 -->
+
+          <div id="modal-02" class="popup-modal slider mfp-hide">
+            <div class="media">
+              <img src="../images/portfolio/modals/emporio4.png" alt="" />
+            </div>
+
+            <div class="description-box">
+              <h4>Emporio Charro</h4>
+              <p>
+                WEB system requested by a private company, developed in the
+                PHP, HTML5, JavaScript and CSS3 environment, in order to keep
+                an optimized control in matters of raw material and production
+                inventories.
+              </p>
+              <div class="categories">WEB development</div>
+            </div>
+
+            <div class="link-box">
+              <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+          </div>
+          <!-- /modal-02 -->
+
+          <div id="modal-03" class="popup-modal slider mfp-hide">
+            <div class="media">
+              <img src="../images/portfolio/modals/generic-pof.png" alt="" />
+            </div>
+
+            <div class="description-box">
+              <h4>Generic POF</h4>
+              <p>
+                Generic point of sale developed freely, to test technologies
+                such as NodeJS, Materialize, express, among others. Done in my
+                spare time.
+              </p>
+
+              <div class="categories">WEB development</div>
+            </div>
+
+            <div class="link-box">
+              <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+          </div>
+          <!-- /modal-03 -->
+
+          <div id="modal-04" class="popup-modal slider mfp-hide">
+            <div class="media">
+              <img src="../images/portfolio/modals/loteria.png" alt="" />
+            </div>
+
+            <div class="description-box">
+              <h4>¡Lotería!</h4>
+              <p>
+                The traditional Mexican game brought to the digital world.
+                Made entirely in Java. It features: choice of cards, randomly
+                chosen traditional background music, random deck review, and
+                card narration with up to three types of voice. It is an
+                user-machine competition.
+              </p>
+
+              <div class="categories">Development</div>
+            </div>
+
+            <div class="link-box">
+              <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+          </div>
+          <!-- /modal-04 -->
+
+          <div id="modal-05" class="popup-modal slider mfp-hide">
+            <div class="media">
+              <img src="../images/portfolio/modals/fepaola.png" alt="" />
+            </div>
+
+            <div class="description-box">
+              <h4>Fotoestudio Paola</h4>
+              <p>
+                WEB system developed for fictitious clients as part of
+                academic training. Made in NodeJS with technologies such as
+                EJS, Express, Morgan, MySQL, among others. Control of
+                employees, users, inventories, sales, photo sessions, and
+                more.
+              </p>
+
+              <div class="categories">WEB development</div>
+            </div>
+
+            <div class="link-box">
+              <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+          </div>
+          <!-- /modal-05 -->
+
+          <div id="modal-06" class="popup-modal slider mfp-hide">
+            <div class="media">
+              <img src="../images/portfolio/modals/video-collection.png" alt="" />
+            </div>
+
+            <div class="description-box">
+              <h4>Video collection</h4>
+              <p>
+                Collection of youtube videos made to test the MERN Stack
+                (MongoDB, Express, React and NodeJS). Done in my spare time.
+              </p>
+
+              <div class="categories">WEB development</div>
+            </div>
+
+            <div class="link-box">
+              <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+          </div>
+          <!-- /modal-06 -->
+
+          <!-- modal popups - end
+			 ============================================================= -->
+        </div>
+        <!-- /portfolio-wrapper -->
+      </div>
+      <!-- /twelve -->
+    </div>
+    <!-- /portfolio-content -->
+  </section>
+  <!-- /portfolio -->
+
+  <!-- services Section
+================================================== -->
+  <section id="services">
+    <div class="overlay"></div>
+
+    <div class="row section-intro">
+      <div class="col-twelve">
+        <h5>Services</h5>
+        <h1>What Can I Do For You?</h1>
+
+        <p class="lead">
+          These are some of the tasks that I can do, I assure you that I love
+          doing it, it is my passion!
+        </p>
+      </div>
+    </div>
+    <!-- /section-intro -->
+
+    <div class="row services-content">
+      <div id="owl-slider" class="owl-carousel services-list">
+        <div class="service">
+          <span class="icon"><i class="icon-earth"></i></span>
+
+          <div class="service-content">
+            <h3>WEB design</h3>
+
+            <p class="desc">
+              WEB design is key if you want your site to be presentable and to
+              please those who use it. There are so many factors that go into
+              paper, that careful decision-making work is required.
+            </p>
+          </div>
+        </div>
+        <!-- /service -->
+
+        <div class="service">
+          <span class="icon"><i class="icon-window"></i></span>
+
+          <div class="service-content">
+            <h3>WEB development</h3>
+
+            <p class="desc">
+              Design is important, but if there is no one to develop it, it is
+              useless, it is of the utmost importance to know the cutting-edge
+              technologies to keep your site updated, safe, and optimized.
+            </p>
+          </div>
+        </div>
+        <!-- /service -->
+
+        <div class="service">
+          <span class="icon"><i class="icon-yes"></i></span>
+
+          <div class="service-content">
+            <h3>Scripting</h3>
+
+            <p class="desc">
+              Code development, mainly in the languages: Python, PHP,
+              JavaScript, Java (basic), soon more...
+            </p>
+          </div>
+        </div>
+        <!-- /service -->
+      </div>
+      <!-- /services-list -->
+    </div>
+    <!-- /services-content -->
+  </section>
+  <!-- /services -->
+
+  <!-- stats Section
+================================================== -->
+  <section id="stats" class="count-up">
+    <div class="row">
+      <div class="col-twelve">
+        <div class="block-1-6 block-s-1-3 block-tab-1-2 block-mob-full stats-list">
+          <div class="bgrid stat">
+            <div class="icon-part">
+              <i class="icon-pencil-ruler"></i>
+            </div>
+
+            <h3 class="stat-count">3</h3>
+
+            <h5 class="stat-title">PROJECTS COMPLETED</h5>
+          </div>
+          <!-- /stat -->
+
+          <div class="bgrid stat">
+            <div class="icon-part">
+              <i class="icon-users"></i>
+            </div>
+
+            <h3 class="stat-count">2</h3>
+
+            <h5 class="stat-title">HAPPY CLIENTS</h5>
+          </div>
+          <!-- /stat -->
+
+          <div class="bgrid stat">
+            <div class="icon-part">
+              <i class="icon-badge"></i>
+            </div>
+
+            <h3 class="stat-count">2</h3>
+
+            <h5 class="stat-title">AWARDS RECEIVED</h5>
+          </div>
+          <!-- /stat -->
+
+          <div class="bgrid stat">
+            <div class="icon-part">
+              <i class="icon-light-bulb"></i>
+            </div>
+
+            <h3 class="stat-count">1000</h3>
+
+            <h5 class="stat-title">CRAZY IDEAS</h5>
+          </div>
+          <!-- /stat -->
+
+          <div class="bgrid stat">
+            <div class="icon-part">
+              <i class="icon-cup"></i>
+            </div>
+
+            <h3 class="stat-count">3000</h3>
+
+            <h5 class="stat-title">COFFEE CUPS</h5>
+          </div>
+          <!-- /stat -->
+
+          <div class="bgrid stat">
+            <div class="icon-part">
+              <i class="icon-clock"></i>
+            </div>
+
+            <h3 class="stat-count">7200</h3>
+
+            <h5 class="stat-title">HOURS</h5>
+          </div>
+          <!-- /stat -->
+        </div>
+        <!-- /stats-list -->
+      </div>
+      <!-- /twelve -->
+    </div>
+    <!-- /row -->
+  </section>
+  <!-- /stats -->
+
+  <!-- contact
+================================================== -->
+  <section id="contact">
+    <div class="row section-intro">
+      <div class="col-twelve">
+        <h5>Contact</h5>
+        <h1>I'd Love To Hear From You.</h1>
+
+        <p class="lead">
+          If you need me, do not hesitate to contact me, I will leave you my
+          contact information.
+        </p>
+      </div>
+    </div>
+    <!-- /section-intro -->
+
+    <div class="row contact-form">
+      <div class="col-twelve">
+        <!-- form -->
+        <form name="contactForm" id="contactForm" method="post" action="">
+          <fieldset>
+            <div class="form-field">
+              <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2"
+                required="" />
+            </div>
+            <div class="form-field">
+              <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="" />
+            </div>
+            <div class="form-field">
+              <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" />
+            </div>
+            <div class="form-field">
+              <textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50"
+                required=""></textarea>
+            </div>
+            <div class="form-field">
+              <button class="submitform">Submit</button>
+              <div id="submit-loader">
+                <div class="text-loader">Sending...</div>
+                <div class="s-loader">
+                  <div class="bounce1"></div>
+                  <div class="bounce2"></div>
+                  <div class="bounce3"></div>
+                </div>
               </div>
-            </fieldset>
-          </form>
-          <!-- Form End -->
+            </div>
+          </fieldset>
+        </form>
+        <!-- Form End -->
 
-          <!-- contact-warning -->
-          <div id="message-warning"></div>
-          <!-- contact-success -->
-          <div id="message-success">
-            <i class="fa fa-check"></i>Your message was sent, thank you!<br />
-          </div>
-        </div>
-        <!-- /col-twelve -->
-      </div>
-      <!-- /contact-form -->
-
-      <div class="row contact-info">
-        <div class="col-four tab-full">
-          <div class="icon">
-            <i class="icon-pin"></i>
-          </div>
-
-          <h5>Where to find me</h5>
-
-          <p>
-            369 Miguel Hidalgo<br />
-            Altos, Tlaltenango, Zacatecas<br />
-            99700 MX
-          </p>
-        </div>
-
-        <div class="col-four tab-full collapse">
-          <div class="icon">
-            <i class="icon-mail"></i>
-          </div>
-
-          <h5>Email Me At</h5>
-
-          <p>
-            lujanriosjesus@gmail.com<br />
-            lujanriosemmanuel@gmail.com
-          </p>
-        </div>
-
-        <div class="col-four tab-full">
-          <div class="icon">
-            <i class="icon-phone"></i>
-          </div>
-
-          <h5>Call Me At</h5>
-
-          <p>Teléfono: (437) 103 3555<br /></p>
+        <!-- contact-warning -->
+        <div id="message-warning"></div>
+        <!-- contact-success -->
+        <div id="message-success">
+          <i class="fa fa-check"></i>Your message was sent, thank you!<br />
         </div>
       </div>
-      <!-- /contact-info -->
-    </section>
-    <!-- /contact -->
+      <!-- /col-twelve -->
+    </div>
+    <!-- /contact-form -->
 
-    <!-- footer
+    <div class="row contact-info">
+      <div class="col-four tab-full">
+        <div class="icon">
+          <i class="icon-pin"></i>
+        </div>
+
+        <h5>Where to find me</h5>
+
+        <p>
+          369 Miguel Hidalgo<br />
+          Altos, Tlaltenango, Zacatecas<br />
+          99700 MX
+        </p>
+      </div>
+
+      <div class="col-four tab-full collapse">
+        <div class="icon">
+          <i class="icon-mail"></i>
+        </div>
+
+        <h5>Email Me At</h5>
+
+        <p>
+          lujanriosjesus@gmail.com<br />
+          lujanriosemmanuel@gmail.com
+        </p>
+      </div>
+
+      <div class="col-four tab-full">
+        <div class="icon">
+          <i class="icon-phone"></i>
+        </div>
+
+        <h5>Call Me At</h5>
+
+        <p>Teléfono: (437) 103 3555<br /></p>
+      </div>
+    </div>
+    <!-- /contact-info -->
+  </section>
+  <!-- /contact -->
+
+  <!-- footer
 ================================================== -->
 
-    <footer>
-      <div class="row">
-        <div class="col-six tab-full pull-right social">
-          <ul class="footer-social">
-            <li>
-              <a
-                href="https://www.facebook.com/emmanuel.lujanrios"
-                target="_blank"
-                ><i class="fa fa-facebook"></i
-              ></a>
-            </li>
-            <li>
-              <a href="https://twitter.com/EmmanuelJLR" target="_blank"
-                ><i class="fa fa-twitter"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                href="https://www.instagram.com/emmlr99/?hl=es-la"
-                target="_blank"
-                ><i class="fa fa-instagram"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/emmanuel-lujan/"
-                target="_blank"
-                ><i class="fa fa-linkedin"></i
-              ></a>
-            </li>
-            <li>
-              <a href="https://github.com/lujanemmanuel" target="_blank"
-                ><i class="fa fa-github"></i
-              ></a>
-            </li>
-          </ul>
-        </div>
+  <footer>
+    <div class="row">
+      <div class="col-six tab-full pull-right social">
+        <ul class="footer-social">
+          <li>
+            <a href="https://www.facebook.com/emmanuel.lujanrios" target="_blank"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/EmmanuelJLR" target="_blank"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/emmlr99/?hl=es-la" target="_blank"><i class="fa fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/emmanuel-lujan/" target="_blank"><i class="fa fa-linkedin"></i></a>
+          </li>
+          <li>
+            <a href="https://github.com/lujanemmanuel" target="_blank"><i class="fa fa-github"></i></a>
+          </li>
+        </ul>
+      </div>
 
-        <!-- <div class="col-six tab-full">
+      <!-- <div class="col-six tab-full">
           <div class="copyright">
             <span>© Copyright Kards 2016.</span>
             <span
@@ -975,23 +948,22 @@
           </div>
         </div> -->
 
-        <div id="go-top">
-          <a class="smoothscroll" title="Back to Top" href="#top"
-            ><i class="fa fa-long-arrow-up"></i
-          ></a>
-        </div>
+      <div id="go-top">
+        <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
       </div>
-      <!-- /row -->
-    </footer>
-
-    <div id="preloader">
-      <div id="loader"></div>
     </div>
+    <!-- /row -->
+  </footer>
 
-    <!-- Java Script
+  <div id="preloader">
+    <div id="loader"></div>
+  </div>
+
+  <!-- Java Script
 ================================================== -->
-    <script src="../js/jquery-2.1.3.min.js"></script>
-    <script src="../js/plugins.js"></script>
-    <script src="../js/main.js"></script>
-  </body>
+  <script src="../js/jquery-2.1.3.min.js"></script>
+  <script src="../js/plugins.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+
 </html>
